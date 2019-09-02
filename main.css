@@ -1,3 +1,91 @@
 body {
-    background-color: black
+    background-color: white
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+#header-main-section {
+    text-align: center;
+}
+
+#footer-main-section {
+    text-align: center;
+}
+
+#menu-bar {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border: 2px solid black;
+}
+
+.menu-bar-hyperlink {
+    text-decoration: none;
+}
+.menu-bar-hyperlink:link, .menu-bar-hyperlink:visited {
+    color: black;
+}
+.menu-bar-hyperlink:hover, .menu-bar-hyperlink:active {
+    background-color: black;
+    color: white;
+}
+
+.menu-bar-section {
+/*    border: 2px solid black; */
+    text-align:center;
+}
+
+.section {
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+[class*="col-"] {
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
