@@ -11,6 +11,11 @@ body {
     text-align: center;
 }
 
+#header-hyperlink:link, #header-hyperlink:visited, #header-hyperlink:hover, #header-hyperlink:active {
+    text-decoration: none;
+    color: black;
+}
+
 #header-main-section {
     text-align: center;
 }
