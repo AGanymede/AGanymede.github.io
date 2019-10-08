@@ -1,3 +1,16 @@
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+    margin: 10px;
+}
+.about-picture {
+    padding-left: 5px;
+}
+.about-text {
+    padding-right: 5px;
+}
+
 body {
     background-color: white
 }
@@ -26,7 +39,7 @@ body {
 
 #menu-bar {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     border: 2px solid black;
 }
 
@@ -46,11 +59,29 @@ body {
     text-align:center;
 }
 
+.project-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    margin: 10px;
+}
+.project-picture {
+    padding-left: 5px;
+}
+.project-text {
+    padding-right: 5px;
+}
+
 .section {
     text-align: center;
     border: 5px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#resume, #blog {
+    margin:auto;
+    padding-bottom: 25px;
 }
 
 [class*="col-"] {
